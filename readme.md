@@ -8,6 +8,22 @@ The TZMG framework is used to train a safe driving policy under the maximum unce
 The trained safe driving policy is compared with vanilla RL policy PPO. As can be seen, the safe driving policy trained in TZMG framework has much better peformance in dealing with adversarial vehicles. 
 
 <p>
-    <img src="carla_simulator.gif" width="600"/>
-    <em>3D simulator (green car is controlled by human with keyboard, and yellow car is controlled by trained driving policy)</em>
+    <img src="ppo_two_adv_car.gif" width="600"/>
+    <em>Vanilla RL policy (yellow) vs two adversarial cars (green)</em>
 </p>
+
+<p>
+    <img src="tzmg_two_adv_car.gif" width="600"/>
+    <em>TZMG learned policy (yellow) vs two adversarial cars (green)</em>
+</p>
+
+<p>
+    <img src="ppo_four_adv_car.gif" width="600"/>
+    <em>Vanilla RL policy (yellow) vs four adversarial cars (green)</em>
+</p>
+
+<p>
+    <img src="tzmg_four_adv_car.gif" width="600"/>
+    <em>TZMG learned policy (yellow) vs four adversarial cars (green)</em>
+</p>
+
